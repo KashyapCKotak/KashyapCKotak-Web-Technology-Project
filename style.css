@@ -1,0 +1,145 @@
+/*----Portfolio Page----*/
+#portfolio ul{
+	list-style-type: none;
+}
+#portfolio .category li{
+	display: inline;
+	padding: 10px;
+	margin: 5px;
+	background-color: #CFCFCF;
+	transition: all 1s ease;
+}
+#portfolio .category li:hover{
+	border-radius: 20%;
+}
+#portfolio .portfolio_item img{
+	width: 95%;
+	height: 200px;
+	margin: 5px;
+	transition: all 1s ease;
+}
+#portfolio .portfolio_item{
+	float: left;
+	width: 30%;
+	height: auto;
+	margin: 5px;
+	padding: 1px;
+	border: 1px solid #CFCFCF;
+	transition: all 1s ease;
+}
+#portfolio .portfolio_item:hover{
+	border-radius: 15px;
+}
+#portfolio .portfolio_item .product{
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	padding: 5px;
+	margin: 2px;
+	border: 1px;
+	transition: all 1s ease;
+}
+#portfolio .portfolio_item .description{
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	transition: all 1s ease;
+}
+#portfolio .buybutton{
+	background-color: transparent;
+	border: 1px solid #CFCFCF;
+	width: 50%;
+	padding: 5px;
+	margin: 5px;
+	transition: all 1s ease;
+}
+#portfolio .buybutton:hover{
+	border-radius: 20%;
+	font-weight: bold;
+	background: #CFCFCF;
+}
+#portfolio .portfolio_item img:hover{
+	border-radius: 10%;
+}
+/*----/Portfolio Page----*/
+/*----Contact Page----*/
+#contact .feedback{
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+	height: auto;
+	transition: all 1s ease;
+}
+#contact .submit{
+	background-color: transparent;
+	border: 1px solid #CFCFCF;
+	transition: all 1s ease;
+}
+#contact .submit:hover{
+	border-radius: 20%;
+}
+/*----/Contact Page----*/
+/*----Review Form----*/
+#reviewform .block{
+	border: 1px solid #4C4C4C;
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+}
+#reviewform .block legend{
+	font-size: 18px;
+	color: #4C4C4C;
+}
+#reviewform .blk{
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+}
+#reviewform .review{
+	padding: 10px;
+	margin: 10px;
+	width: 95%;
+	height: auto;
+	transition: all 1s ease;
+}
+#reviewform .half{
+	float: left;
+	width: 44%;
+}
+#reviewform .submit{
+	background-color: transparent;
+	border: 1px solid #CFCFCF;
+	transition: all 1s ease;
+}
+#reviewform .submit:hover{
+	border-radius: 20%;
+}
+/*----/Review Form----*/
+/*----Upload Page----*/
+#upload{
+	text-align: center;
+	border: 1px solid #CFCFCF;
+}
+#upload form{
+	padding: 10px;
+	margin: auto;
+	width: 50%;
+}
+#upload input{
+	width: 40%;
+	padding: 10px;
+	margin: 10px;
+}
+#upload ::-webkit-input-placeholder {
+	text-align: center;
+}
+#upload ::-moz-placeholder { /* Firefox 19+ */
+	text-align: center;
+}
+#upload :-ms-input-placeholder {
+	text-align: center;
+}
+#upload :-moz-placeholder { /* Firefox 18- */
+	text-align: center;
+}
+/*----/Upload Page----*/
